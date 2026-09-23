@@ -1,7 +1,161 @@
 <!DOCTYPE html>
-<head>
-</head>
-<body>
-    
-</body>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./src/output.css" rel="stylesheet">
+    </head>
+    <body class="bg-sky-200">
+        <nav class="bg-red-400 p-10 fixed inset-x-0 top-0">
+            <a href="#projects" class="bg-blue-500 text-white p-4 rounded-lg hover:bg-blue-700">Projects</a>
+            <a href="#aboutMe" class="bg-blue-500 text-white p-4 rounded-lg hover:bg-blue-700">Who am I?</a>
+        </nav>
+        
+        <div id="projects" class="mt-28">
+            <h1 class="text-3xl font-bold underline mx-5">
+            Projects
+            </h1>
+
+            <div class="grid grid-cols-1 gap-y-6 md:grid-cols-2">
+                <div class="card text-center max-w-sm inline-sm rounded-lg bg-red-500 hover:scale-105 transition-transform duration-300 mx-auto p-4" data-title="BoBOTs" data-description="Bla bla bla" data-modal="modal-1">
+                    <h2 class="font-bold bg-red-500 p-2">
+                        BoBOTs
+                    </h2>
+                    <!--<video src="https://www.youtube.com/watch?v=krOfzUC0Db8" autoplay="{true} loop muted"></video>-->
+                    <img src="resources/BoBotsTrailerImage.png" alt="BoBots" />
+                    <!--<div class="bg-[url(../resources/BoBotsTrailerImage.png)]">
+                        <p>Esto es un texto aleatorio</p>
+                    </div>-->
+                </div>
+
+                <div id="modal-1" class="modal fixed inset-0 z-50 hidden items-center justify-center bg-black/50 p-4">
+                    <div
+                        class="relative w-auto rounded-2xl bg-white p-8 shadow-2xl">
+                        <button class="close absolute right-4 top-4 text-2xl text-gray-500 hover:text-black">
+                        Cerrar
+                        </button>
+
+                        <h2 id="modal-title" class="text-2xl font-bold">
+                        BoBOTs
+                        </h2>
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/krOfzUC0Db8?si=aBvlRRBLSYkV0xsj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <p id="modal-description" class="mt-4 text-gray-600 py-2 w-80">
+                        BoBOTs is a party local multiplayer game in a world of toys where you dash and bounce your way to victory!
+                        In this project I worked primarily on the local multiplayer system, UI, the Bash Out gamemode and the AI Bots to fill the empty spots.
+                        We were only 4 programmers for this game, but I'm really proud of our effort and the game that came out thanks that.
+                        </p>
+                        <div class="grid grid-rows-1">
+                            <a href="https://store.steampowered.com/app/5058490/BoBOTs/" class="inline-block">
+                                <img src="resources/white-steam.png" alt="Steam" class="w-12 hover:w-16"/>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="card text-center max-w-sm inline-sm rounded-lg bg-red-500 hover:scale-105 transition-transform duration-300 mx-auto p-4 bg-blue-500" data-title="Juego espacial no me acuerdo del nombre" data-description="Bla bla bla" data-modal="modal-2">
+                    <h2 class="font-bold bg-red-500 p-2">
+                        Juego espacial no me acuerdo del nombre
+                    </h2>
+                    <!--<video src="https://www.youtube.com/watch?v=krOfzUC0Db8" autoplay="{true} loop muted"></video>-->
+                    <img src="resources/BoBotsTrailerImage.png" alt="Juego espacial" />
+                    <!--<div class="bg-[url(../resources/BoBotsTrailerImage.png)]">
+                        <p>Esto es un texto aleatorio</p>
+                    </div>-->
+                </div>
+
+                <div id="modal-2" class="modal fixed inset-0 z-50 hidden items-center justify-center bg-black/50 p-4">
+                    <div
+                        class="relative w-auto rounded-2xl bg-white p-8 shadow-2xl">
+                        <button
+                        class="close absolute right-4 top-4 text-2xl text-gray-500 hover:text-black">
+                        Cerrar
+                        </button>
+
+                        <h2 id="modal-title" class="text-2xl font-bold">
+                        Juego espacial no me acuerdo del nombre
+                        </h2>
+
+                        <p id="modal-description" class="mt-4 text-gray-600">
+                        Bla bla bla
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card text-center max-w-sm inline-sm rounded-lg bg-red-500 hover:scale-105 transition-transform duration-300 mx-auto p-4 bg-blue-500" data-title="Juego espacial no me acuerdo del nombre" data-description="Bla bla bla" data-modal="modal-3">
+                    <h2 class="font-bold bg-red-500 p-2">
+                        Love Curse
+                    </h2>
+                    <!--<video src="https://www.youtube.com/watch?v=krOfzUC0Db8" autoplay="{true} loop muted"></video>-->
+                    <img src="resources/LoveCurse.jpg" alt="Juego espacial" />
+                    <!--<div class="bg-[url(../resources/BoBotsTrailerImage.png)]">
+                        <p>Esto es un texto aleatorio</p>
+                    </div>-->
+                </div>
+
+                <div id="modal-3" class="modal fixed inset-0 z-50 hidden items-center justify-center bg-black/50 p-4">
+                    <div class="relative w-auto rounded-2xl bg-white p-8 shadow-2xl">
+                        <button
+                        class="close absolute right-4 top-4 text-2xl text-gray-500 hover:text-black">
+                        Cerrar
+                        </button>
+
+                        <h2 id="modal-title" class="text-2xl font-bold">
+                        Love Curse
+                        </h2>
+                        <iframe frameborder="0" src="https://itch.io/embed-upload/11172279?color=20092d" allowfullscreen="" width="1024" height="740"><a href="https://ariehn.itch.io/love-curse">Play Love Curse on itch.io</a></iframe>
+
+                        <p id="modal-description" class="mt-4 text-gray-600">
+                        Bla bla bla
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div id="aboutMe" class="my-8">
+            <h1 class="text-3xl font-bold underline mx-5">
+            Who am I?
+            </h1>
+            <div class="flex flex-row p-3">
+                <img src="resources/Me!.jpg" class="w-75 mb-24"/>
+                <p>
+                    Hey! I'm Sam
+                </p>
+            </div>
+            
+        </div>
+        <div id="extra" class="bg-red-400 p-10 fixed inset-x-0 bottom-0">
+            <!--Remember to change the link-->
+            <a href="/resources/Sam CV.pdf" class="bg-blue-500 text-white p-4 rounded-lg hover:bg-blue-700" download>CV</a>
+            <a href="mailto:samcerbl@gmail.com" class="bg-blue-500 text-white p-4 rounded-lg hover:bg-blue-700">Email me!</a>
+        </div>
+    </body>
 </html>
+
+<script>
+    const cards = document.querySelectorAll(".card");
+    const modals = document.querySelectorAll(".modal");
+
+    cards.forEach(card => {
+        card.addEventListener("click", () => {
+
+            const modalId = card.dataset.modal;
+            const modal = document.getElementById(modalId);
+
+            modal.classList.remove("hidden");
+            modal.classList.add("flex");
+        });
+    });
+
+    modals.forEach(modal => {
+
+    const closeButton = modal.querySelector(".close");
+    
+        closeButton.addEventListener("click", () => {
+            modal.classList.add("hidden");
+            modal.classList.remove("flex");
+        });
+    });
+
+</script>
