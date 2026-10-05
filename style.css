@@ -1,2 +1,30 @@
 @import "tailwindcss";
 @source "./index.html";
+
+@font-face {
+    font-family: Coiny;
+    src: url("Coiny-Regular.ttf");
+}
+
+@font-face {
+    font-family: Lilita;
+    src: url("LilitaOne-Regular.ttf");
+}
+
+@font-face{
+    font-family: DMMono;
+    src: url("DMMono-Regular.ttf");
+}
+
+@font-face{
+    font-family: DMMono_Bold;
+    src: url("DMMono-Medium.ttf");
+}
+
+p{
+    font-family: DMMono;
+}
+
+h1, h2{
+    font-family: DMMono_Bold;
+}
